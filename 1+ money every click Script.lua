@@ -48,7 +48,7 @@ end)
 
 
 
-eggsec:NewToggle("Auto 1st egg", "ToggleInfo", function(state)
+eggsec:NewToggle("Auto Open 250$ Egg", "ToggleInfo", function(state)
     if state then
          elias1 = 1
         while elias1 == 1 do        
@@ -66,7 +66,7 @@ end)
 
 
 
-eggsec:NewToggle("Auto 2nd egg", "ToggleInfo", function(state)
+eggsec:NewToggle("Auto Open 750$ Egg", "ToggleInfo", function(state)
     if state then
        elias2 = 1
        while elias2 == 1 do     
@@ -87,7 +87,7 @@ end)
 
 
 
-eggsec:NewToggle("Auto 3rd egg", "ToggleInfo", function(state)
+eggsec:NewToggle("Auto Open 3.75K$ Egg", "ToggleInfo", function(state)
     if state then
        elias3 = 1 
        while elias3 == 1 do  
@@ -108,7 +108,7 @@ end)
 
 
 
-eggsec:NewToggle("Auto 4th egg", "ToggleInfo", function(state)
+eggsec:NewToggle("Auto Open 11.25K$ Egg", "ToggleInfo", function(state)
     if state then
        elias4 = 1 
        while elias4 == 1 do  
@@ -128,7 +128,7 @@ end)
 
 
 
-eggsec:NewToggle("Auto 5th egg", "ToggleInfo", function(state)
+eggsec:NewToggle("Auto Open 56.25K$ Egg", "ToggleInfo", function(state)
     if state then
        elias5 = 1
        while elias5 == 1 do     
@@ -149,7 +149,7 @@ end)
 
 
 
-eggsec:NewToggle("Auto 6th egg", "ToggleInfo", function(state)
+eggsec:NewToggle("Auto Open 168.75K$ Egg", "ToggleInfo", function(state)
     if state then
        elias6 = 1
        while elias6 == 1 do     
