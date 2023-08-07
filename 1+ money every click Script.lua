@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Money ClickerV1", "Midnight")
+local Window = Library.CreateLib("Made By Free Exploiter on YT", "Midnight")
 
 local Maintab = Window:NewTab("autofarm")  -- tabs autofarm
 local Maintab2 = Window:NewTab("AutoFarm Eggs")
