@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Made By Free Exploiter on YT", "Midnight")
 
-local Maintab = Window:NewTab("autofarm")  -- tabs autofarm
+local Maintab = Window:NewTab("Autofarm")  -- tabs autofarm
 local Maintab2 = Window:NewTab("AutoFarm Eggs")
 local eggsec = Maintab2:NewSection("Egg Farm")
 local mainsec = Maintab:NewSection("main")  -- the thing that says main in the menu
@@ -168,7 +168,117 @@ task.wait(2)
 end)
 
 
+eggsec:NewToggle("Auto Open 450K$ Egg", "ToggleInfo", function(state)
+    if state then
+       elias20 = 1
+       while elias20 == 1 do     
+local args = {
+    [1] = 10,
+    [2] = "Warped Egg"
+}
 
+game:GetService("ReplicatedStorage"):FindFirstChild("functions-shared/network@GlobalFunctions"):FindFirstChild("s:openEgg"):FireServer(unpack(args))
+task.wait(2)
+       end
+
+    else
+       elias20 = 430264436
+    end
+end)
+
+
+eggsec:NewToggle("Auto Open 1.8M$ Egg World2", "ToggleInfo", function(state)
+    if state then
+       elias21 = 1
+       while elias21 == 1 do     
+local args = {
+    [1] = 10,
+    [2] = "Sun Egg"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("functions-shared/network@GlobalFunctions"):FindFirstChild("s:openEgg"):FireServer(unpack(args))
+task.wait(2)
+       end
+
+    else
+       elias21 = 430264436
+    end
+end)
+
+
+
+eggsec:NewToggle("Auto Open 7.2M$ Egg World2", "ToggleInfo", function(state)
+    if state then
+       elias22 = 1
+       while elias22 == 1 do     
+local args = {
+    [1] = 10,
+    [2] = "Moon Egg"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("functions-shared/network@GlobalFunctions"):FindFirstChild("s:openEgg"):FireServer(unpack(args))
+task.wait(2)
+       end
+
+    else
+       elias22 = 430264436
+    end
+end)
+
+
+eggsec:NewToggle("Auto Open 28.8M$ Egg World2", "ToggleInfo", function(state)
+    if state then
+       elias23 = 1
+       while elias23 == 1 do     
+local args = {
+    [1] = 10,
+    [2] = "Blackhole Egg"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("functions-shared/network@GlobalFunctions"):FindFirstChild("s:openEgg"):FireServer(unpack(args))
+task.wait(2)
+       end
+
+    else
+       elias23 = 430264436
+    end
+end)
+
+eggsec:NewToggle("Auto Open 115.2$ Egg World2", "ToggleInfo", function(state)
+    if state then
+       elias24 = 1
+       while elias24 == 1 do     
+local args = {
+    [1] = 10,
+    [2] = "Inferno Egg"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("functions-shared/network@GlobalFunctions"):FindFirstChild("s:openEgg"):FireServer(unpack(args))
+task.wait(2)
+       end
+
+    else
+       elias24 = 430264436
+    end
+end)
+
+eggsec:NewToggle("Auto Open 1B$ Egg World2", "ToggleInfo", function(state)
+    if state then
+       elias25 = 1
+       while elias25 == 1 do     
+local args = {
+    [1] = 10,
+    [2] = "Lightning Egg"
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("functions-shared/network@GlobalFunctions"):FindFirstChild("s:openEgg"):FireServer(unpack(args))
+task.wait(2)
+       end
+
+    else
+       elias25 = 430264436
+    end
+end)
 
 
 mainsec:NewToggle("AutoRebirth", "AutoRebirths", function(state)
