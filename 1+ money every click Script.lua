@@ -9,6 +9,7 @@ local eggstuff1 = Window:NewTab("Pet Stuff")
 local eggstuff = eggstuff1:NewSection("Pet Stuff")
 local caracter = Window:NewTab("LocalPlayer")
 local caracter1 = caracter:NewSection("LocalPlayer")
+
 caracter1:NewSlider("WalkSpeed", "Changes WalkSpeed default walkspeed is 16", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
@@ -163,5 +164,24 @@ task.wait(2)
 
     else
        elias6 = 430264436
+    end
+end)
+
+
+
+
+
+mainsec:NewToggle("AutoRebirth", "AutoRebirths", function(state)
+    if state then
+        elias7 = 1 
+        while elias7 == 1 do         
+local args = {
+    [1] = 59
+}
+game:GetService("ReplicatedStorage"):FindFirstChild("functions-shared/network@GlobalFunctions"):FindFirstChild("s:rebirth"):FireServer(unpack(args))
+  task.wait(5)
+end
+    else
+        elias7 = 1246766454
     end
 end)
