@@ -5,10 +5,13 @@ local Maintab = Window:NewTab("autofarm")  -- tabs autofarm
 local Maintab2 = Window:NewTab("AutoFarm Eggs")
 local eggsec = Maintab2:NewSection("Egg Farm")
 local mainsec = Maintab:NewSection("main")  -- the thing that says main in the menu
-local eggstuff1 = Window:NewTab("Egg Stuff")
-local eggstuff = eggstuff1:NewSection("EggStuff")
-
-
+local eggstuff1 = Window:NewTab("Pet Stuff")
+local eggstuff = eggstuff1:NewSection("Pet Stuff")
+local caracter = Window:NewTab("LocalPlayer")
+local caracter1 = caracter:NewSection("LocalPlayer")
+caracter1:NewSlider("WalkSpeed", "Changes WalkSpeed default walkspeed is 16", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
 eggstuff:NewButton("Equip Best", "Equipes best pet", function()
 local args = {
     [1] = 15
